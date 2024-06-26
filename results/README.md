@@ -1,1 +1,1 @@
-Folder for files that should appear after running main.py script.
+The empty folder for saving results after running the main py file

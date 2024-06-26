@@ -130,4 +130,4 @@ To repeat the calculations used in this study, you can use the following command
 python main.py --ncores 25 --seed 42 --threshold 0.45 --scheme closest-heavy
 ```
 ### Data
-PDB files for analysis will be uploaded later or can be obtained from [RoseTTAFold2NA v0.2](https://github.com/uw-ipd/RoseTTAFold2NA) using these [sequences]('data/df_input.csv') as input. Note that D: should be used with a DNA sequence file as an indicator of double-stranded DNA.
+PDB files for analysis will be uploaded later or can be obtained from [RoseTTAFold2NA v0.2](https://github.com/uw-ipd/RoseTTAFold2NA) using these [sequences](data/df_input.csv) as input. Note that D: should be used with a DNA sequence file as an indicator of double-stranded DNA.
