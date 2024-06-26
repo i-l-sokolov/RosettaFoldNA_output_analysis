@@ -1,0 +1,1 @@
+Folder with the set of PDB files from RoseTTAFold2NA output. Files can be downloaded via the link provided later or can be obtained by running RoseTTAFold2NA version 0.2 with the inputs indicated in the df_input.csv file.
