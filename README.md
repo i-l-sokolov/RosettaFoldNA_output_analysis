@@ -1,4 +1,4 @@
-# Name of the project
+# Evaluating the Capability of RoseTTAFold2NA to Predict the Spacing and Orientation of Protein-DNA Interactions
 
 ## INTRODUCTION
 ### About this project
@@ -42,6 +42,7 @@ Then, if we want for example to test which spacing/orientation would be preferre
 | TCATGC[4N]TTCCGG –dist-- GCATGA[4N]TTCCGG | orientation_1 or orientation_3 | No           |
 | GCATGA[4N]TTCCGG –dist-- TCATGC[4N]TTCCGG | orientation_3 or orientation_1 | Yes          |
 | ...                                       | ...                            | ...          |
+
 **Table2.** Table with different DNA sequences for RoseTTAFold2NA input. Each sequence contains one preferred by the SELEX experiment as well as a competitive one, and the distance between them.
 
 For each Position Weight Matrix (PWM) model obtained from the SELEX experiment, it was constructed from 5 to 7 competitive DNA sequences. The model gives 7 sequences if TFs spacing preference is bigger then 2 (so it allows a subtraction of 1 and 2), and always includes 5 sequences as three competitive orientations and  addition of 1 and 2 to spacing preferences are always possible. Subsequently, the output files were analyzed.
@@ -60,7 +61,7 @@ The simple threshold could be applied for analysis of protein-DNA contancts. For
 
 **Fig.3.**  Heatmap of distances calculated by the mdtraj library for the BARHL protein and the CGCTAACCGATTAGCGTGC DNA sequence with a threshold of 0.4 nm
 
-Then, we can only consider nucleic acids that contain at least one value below a certain threshold for any amino acid. The nucleic acids in the input sequence CGCTAACCGATTAGCGTCGC which are above the threshold are replaced by the symbol "_". The sequence with these nucleic acids and "_" can be considered a k-mer generated from a PDB file.
+Then, we can only consider nucleic acids that contain at least one value below a certain threshold for any amino acid. The nucleic acids in the input sequence CGCTAACCGATTAGCGTCGC which are above the threshold are replaced by the symbol "\_". The sequence with these nucleic acids and "\_" can be considered a k-mer generated from a PDB file.
 
 ## The prediction score
 
