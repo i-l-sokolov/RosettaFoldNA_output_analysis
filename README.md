@@ -103,7 +103,16 @@ The observed data suggest that SELEX data could be used to enrich training data 
 ### Environment
 For repeating this calculation set up the environment, please use the provided environment.yml file. Please, replace 'NAME' and 'YOUR_PREFIX' with your specific information.
 ### Usage
-Activate your conda environment. Navigate to the lib directory. Execute the 'main.py' script with conditions suitable for your data. Refer to the following script help guide:
+The environment could be installed using environment.yml file and next command:
+```
+conda env create -f environment.yml
+```
+Activate your conda environment. Navigate to the lib directory. 
+```
+conda activate <environment_name>
+cd lib
+```
+Execute the 'main.py' script with conditions suitable for your data. Refer to the following script help guide:
 ```
 usage: main.py [-h] [--ncores NCORES] [--seed SEED] [--threshold THRESHOLD]
                [--scheme {ca,closest,closest-heavy,sidechain,sidechain-heavy}]
@@ -131,3 +140,6 @@ python main.py --ncores 25 --seed 42 --threshold 0.45 --scheme closest-heavy
 ```
 ### Data
 PDB files for analysis will be uploaded later or can be obtained from [RoseTTAFold2NA v0.2](https://github.com/uw-ipd/RoseTTAFold2NA) using these [sequences](data/df_input.csv) as input. Note that D: should be used with a DNA sequence file as an indicator of double-stranded DNA.
+
+### Example of script run
+The screenshot of working script output could be found [here](pics/Screenshot%202024-06-26%20155316.png)
