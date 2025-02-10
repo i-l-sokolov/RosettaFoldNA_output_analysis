@@ -1,1 +1,1 @@
-The empty folder for saving results after running the main py file
+The empty folder for saving results after running the main.py file

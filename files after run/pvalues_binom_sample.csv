@@ -1,0 +1,15 @@
+mode,RoseTTAFold2NA,AlphaFold 3,Side of the preferred DNA
+orient_1_2,1.0,1.0,left
+orient_1_3,1.0,1.0,left
+orient_1_4,1.0,1.0,left
+spac_m1,1.0,1.0,left
+spac_m2,1.0,1.0,left
+spac_p1,1.0,1.0,left
+spac_p2,1.0,1.0,left
+orient_1_2,1.0,1.0,right
+orient_1_3,1.0,1.0,right
+orient_1_4,1.0,1.0,right
+spac_m1,1.0,1.0,right
+spac_m2,1.0,1.0,right
+spac_p1,1.0,1.0,right
+spac_p2,1.0,1.0,right
