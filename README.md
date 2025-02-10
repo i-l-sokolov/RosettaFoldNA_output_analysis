@@ -2,7 +2,7 @@
 
 This repository contains a sample dataset suitable for testing the pipeline in the file [data/sample.tar.gz](data/sample.tar.gz) </br>
 The whole dataset is available by the [link](https://doi.org/10.5281/zenodo.14844637)</br>
-The versions of libraries and software used are listed in the environment [file]('environment.yml')</br>
+The versions of libraries and software used are listed in the environment [file](environment.yml)</br>
 
 ## INTRODUCTION
 ### About this project
